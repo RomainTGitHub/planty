@@ -5,3 +5,12 @@
  * Text Domain:	   beans-child
  * Description:    The most innovative theme for WordPress. The real magic is under the hood.
  */
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+    top: 32px;
+}
