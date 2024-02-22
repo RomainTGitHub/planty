@@ -1,14 +1,15 @@
-<?php
-/**
- * This file's content is located in /lib/templates/structure/header.php and should
- * only be overwritten via your child theme.
- *
- * We strongly recommend to read the Beans documentation to find out more about
- * how to customize Beans theme.
- *
- * @author Beans
- * @link   https://www.getbeans.io
- * @package Beans\Framework
- */
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    
+    <?php wp_head(); ?>
+</head>
 
-beans_load_default_template( __FILE__ );
+<body <?php body_class(); ?>>
+    <header class="header">
+    <a href="<?php echo home_url( '/' ); ?>">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+    </a>  
+    <?php wp_body_open(); ?>
