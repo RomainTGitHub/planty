@@ -18,8 +18,8 @@
     </a>
     <p>energy drink</p>
     <nav>
-      <button>Nous rencontrer</button>
-      <button>Admin</button>
-      <button>Commander</button>
+      <a href="">Nous rencontrer</a>
+      <a href="">Admin</a>
+      <a href="">Commander</a>
     </nav>
   </header>
