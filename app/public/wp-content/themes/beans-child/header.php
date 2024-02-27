@@ -4,6 +4,9 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>
@@ -20,8 +23,12 @@
       <p>energy drink</p>
     </div>
     <nav class="lien-header">
-      <a class="boutonnav1" href="">Nous rencontrer</a>
-      <a class="boutonnav1" href="">Admin</a>
-      <a href="boutonnav2">Commander</a>
+      <div class="bouton1">
+        <a href="">Nous rencontrer</a>
+        <a href="">Admin</a>
+      </div>
+      <div class="bouton2">
+        <a class="" href="">Commander</a>
+      </div>
     </nav>
   </header>
