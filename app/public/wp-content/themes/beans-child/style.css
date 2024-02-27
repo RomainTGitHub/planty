@@ -6,11 +6,81 @@
  * Description:    The most innovative theme for WordPress. The real magic is under the hood.
  */
 
-.menu {
-    position: fixed;
-    top: 0px;
+
+/*header*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-right: 60px;
+    background-color: #fff;
+    height: 80px;
 }
 
-.admin-bar .menu {
-    top: 32px;
+.header img {
+    flex-direction: row;
+    justify-content: start;
+    width: 201px;
+    height: 19px;
+    flex-shrink: 0;
+}
+
+.header p {
+    color: #326238;
+    font-family: Baskerville;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 31px 37px 30px 37px;
+    gap: 9px;
+}
+
+.lien-header a {
+    margin-left: 20px;
+    padding: 16px 0px 0px 0px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boutonnav1 {
+    text-decoration: none;
+}
+
+a.boutonnav1:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+
+.bontonnav2 {
+    text-decoration: none;
+    padding: 5px 0px 0px 0px;
+}
+
+a.boutonnav2:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+
+/*footer*/
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }

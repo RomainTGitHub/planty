@@ -13,13 +13,15 @@
   <?php wp_body_open(); ?>
 
   <header class="header">
-    <a href="<?php echo home_url('/'); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
-    </a>
-    <p>energy drink</p>
-    <nav>
-      <a href="">Nous rencontrer</a>
-      <a href="">Admin</a>
-      <a href="">Commander</a>
+    <div class=logo>
+      <a href="<?php echo home_url('/'); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+      </a>
+      <p>energy drink</p>
+    </div>
+    <nav class="lien-header">
+      <a class="boutonnav1" href="">Nous rencontrer</a>
+      <a class="boutonnav1" href="">Admin</a>
+      <a href="boutonnav2">Commander</a>
     </nav>
   </header>
