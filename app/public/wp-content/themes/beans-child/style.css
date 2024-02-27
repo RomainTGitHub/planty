@@ -90,6 +90,7 @@
 }
 
 .bouton2:hover {
+    color: #FFF;
     background-color: #C02E44;
     text-decoration: none;
 }
