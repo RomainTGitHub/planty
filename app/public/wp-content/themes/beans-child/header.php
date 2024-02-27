@@ -23,12 +23,10 @@
       <p>energy drink</p>
     </div>
     <nav class="lien-header">
-      <div class="bouton1">
-        <a href="">Nous rencontrer</a>
-        <a href="">Admin</a>
+      <div class="bouton">
+        <a class="bouton1" href="">Nous rencontrer</a>
+        <a class="boutonadmin">Admin</a>
       </div>
-      <div class="bouton2">
-        <a class="" href="">Commander</a>
-      </div>
+      <a class="bouton2" href="">Commander</a>
     </nav>
   </header>
