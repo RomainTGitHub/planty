@@ -4,7 +4,7 @@ Tags: SEO, Google Search Console, XML Sitemap, meta description, schema, meta ti
 Tested up to: 6.4.3
 Requires at least: 5.3
 Requires PHP: 7.0
-Stable tag: 4.5.7.1
+Stable tag: 4.5.7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -16,12 +16,12 @@ The original WordPress SEO plugin. Improve your WordPress SEO rankings and traff
 
 All in One SEO is the original WordPress SEO plugin started in 2007. Today, over 3 million website owners and SEO experts use AIOSEO for higher SEO rankings.
 
-Our users consistently rate <a href="https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="All in One SEO for WordPress">AIOSEO</a> as the most comprehensive WordPress SEO plugin and marketing toolkit. It's the fastest way to optimize WordPress SEO settings, add schema markup, create XML sitemap, add local SEO, track SEO keyword rankings, automate internal linking, perform SEO audits, add Author SEO (EEAT), monitor SEO revisions, connect Google search console, and basically everything a SEO Pro would use to rank higher in search engines. 
+Our users consistently rate [AIOSEO](https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'All in One SEO for WordPress') as the most comprehensive WordPress SEO plugin and marketing toolkit. It's the fastest way to optimize WordPress SEO settings, add schema markup, create XML sitemap, add local SEO, track SEO keyword rankings, automate internal linking, perform SEO audits, add Author SEO (EEAT), monitor SEO revisions, connect Google search console, and basically everything a SEO Pro would use to rank higher in search engines. 
 
 We have AI SEO features that helps you optimize SEO rankings using ChatGPT (OpenAI) and artificial intelligence.
 
 > <strong>AIOSEO Pro</strong><br />
-> This is the lite version of the All in One WordPress SEO Pro plugin that comes with all the powerful SEO features you will ever need to rank higher in search engines including **smart SEO schema markup, advanced SEO modules, powerful SEO sitemap suite, local SEO module, SEO keyword ranking tracking, automatic internal linking, WooCommerce SEO**, and tons more. <a href="https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="All in One SEO for WordPress">Click here to purchase the best premium WordPress SEO plugin now!</a>
+> This is the lite version of the All in One WordPress SEO Pro plugin that comes with all the powerful SEO features you will ever need to rank higher in search engines including **smart SEO schema markup, advanced SEO modules, powerful SEO sitemap suite, local SEO module, SEO keyword ranking tracking, automatic internal linking, WooCommerce SEO**, and tons more. [Click here to purchase the best premium WordPress SEO plugin now!](https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'All in One SEO for WordPress')
 
 Here's why smart business owners, SEO experts, marketers, and developers love AIOSEO, and you will too!
 
@@ -35,7 +35,7 @@ AIOSEO is leading the innovation in WordPress SEO space, and our SEO features wi
 Our SEO setup wizard optimizes your website's SEO settings based on your unique industry needs in less than 5 minutes.
 
 * **Smart Schema Markup (aka Rich Snippets)** 
-Get better click through rate (CTR) and Google rich featured snippets using advanced SEO schema markups like FAQ schema, product schema, recipe schema markup, and dozens more using our custom Schema Generator.
+Get better click through rate (CTR) and Google rich featured snippets using advanced SEO schema markups like FAQ schema, product schema, recipe schema markup, and dozens more using our custom [Schema Generator](https://aioseo.com/features/rich-snippets-schema/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Schema Generator').
 
 * **AI Title and Description Generator** 
 Save time by automatically generating SEO titles and meta descriptions using OpenAI ChatGPT.
@@ -44,31 +44,31 @@ Save time by automatically generating SEO titles and meta descriptions using Ope
 Optimize for unlimited SEO keywords using our SEO content analyzer. Our TruSEO score gives you detailed content & readability analysis, so you can get higher SEO rankings.
 
 * **Google Keyword Rank Tracking**
-Easily track how your website is ranking for different keywords in Google from your WordPress dashboard.
+Easily track how your website is ranking for different keywords in Google from your [WordPress dashboard](https://aioseo.com/features/search-statistics/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Google Keyword Rank Tracker').
 
 * **Automatic Link Assistant** 
-Automate internal links between your pages using our smart <a href="https://aioseo.com/features/internal-link-assistant/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="Link Assistant">internal linking algorithm</a> that will help improve on-page SEO.
+Automate internal links between your pages using our smart [internal linking algorithm](https://aioseo.com/features/internal-link-assistant/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Link Assistant') that will help improve on-page SEO.
 
 * **Local Business SEO** 
-Improve your local SEO presence with local business schema, support for multiple local store locations, business opening hours, Google Maps integration, contact info (business email, business phone, business address, etc), and more with our <a href="https://aioseo.com/features/local-seo/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="Local SEO">Local SEO module</a>.
+Improve your local SEO presence with local business schema, support for multiple local store locations, business opening hours, Google Maps integration, contact info (business email, business phone, business address, etc), and more with our [Local SEO module](https://aioseo.com/features/local-seo/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Local SEO').
 
 * **SEO Revisions** 
-Keep a historical record of SEO changes, monitor the impact of changes, and restore previous versions in one click.
+Keep a [historical record of SEO changes](https://aioseo.com/seo-revisions/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'SEO Revisions'), monitor the impact of changes, and restore previous versions in one click.
 
 * **Content Decay Tracking**
-Never lose traffic to competitors. Quickly detect which content is losing traffic / SEO rankings, so you can optimize it to regain your rankings with our <a href="https://aioseo.com/features/search-statistics/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="Search Statistics">Search Statistics module</a>.
+Never lose traffic to competitors. Quickly detect which content is losing traffic / SEO rankings, so you can optimize it to regain your rankings with our [Search Statistics module](https://aioseo.com/features/search-statistics/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Search Statistics').
 
 * **Smart XML Sitemap** 
 Advanced XML sitemaps to boost your SEO rankings (with easy setup inside Google Search Console). Also includes Video SEO XML sitemap, News SEO XML sitemap, RSS sitemap, and HTML sitemap.
 
 * **Smart SEO Redirects** 
-The most powerful <a href="https://aioseo.com/features/redirection-manager/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="Redirection Manager">SEO Redirection manager</a> for setting up advanced SEO redirects including 301 redirects, 302, 307, 410, 404 redirection, REGEX redirects, and more. 
+The most powerful [SEO Redirection manager](https://aioseo.com/features/redirection-manager/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Redirection Manager') for setting up advanced SEO redirects including 301 redirects, 302, 307, 410, 404 redirection, REGEX redirects, and more. 
 
 * **404 Error Monitor** 
 Automatic 404 error monitor helps you track and redirect 404 errors, so you don't lose SEO rankings.
 
 * **Author SEO** 
-Add custom author profile pages, author bio box, and relevant author schema to boost Google EEAT score to help with Google's Helpful Content Update (HCU).
+Add [custom author profile pages, author bio box, and relevant author schema](https://aioseo.com/features/author-seo-google-e-e-a-t/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'Author SEO (E-E-A-T)') to boost Google EEAT score to help with Google's Helpful Content Update (HCU).
 
 * **SEO Audit Checklist** 
 Improve your SEO ranking with our comprehensive SEO audit checklist.
@@ -87,7 +87,7 @@ Automatically generate a table of content, customize headings, anchors, and you 
 * **User Access Control** 
 Control who can manage your SEO settings with our advanced SEO access control.
 
-* **WordPress REST API ** 
+* **WordPress REST API** 
 Manage your SEO metadata with WordPress REST API. Great for headless WordPress installations.
 
 * **Advanced Robots Meta SEO Settings** 
@@ -133,7 +133,7 @@ Analyze your page / posts headlines to improve CTR and SEO rankings.
 Use competitor SEO analysis to outrank them with better SEO optimization.
 
 * **SEO Code Snippets**
-Integration with <a href="https://wordpress.org/plugins/insert-headers-and-footers/">WPCode plugin</a> for SEO code snippets to further customize every aspect of your SEO.
+Integration with [WPCode plugin](https://wordpress.org/plugins/insert-headers-and-footers/) for SEO code snippets to further customize every aspect of your SEO.
 
 
 ### WordPress SEO Integrations ###
@@ -208,11 +208,11 @@ Aside from that, our SEO migration tool also helps you with:
 
 Give AIOSEO a try.
 
-Want to unlock more SEO features? <a href="https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend" title="All in One SEO for WordPress">Upgrade to AIOSEO Pro</a>.
+Want to unlock more SEO features? [Upgrade to AIOSEO Pro](https://aioseo.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin 'All in One SEO for WordPress').
 
 ### Credits ###
 
-This plugin is created by <a href="https://benjaminrojas.net/" rel="friend" title="Benjamin Rojas">Benjamin Rojas</a> and <a href="https://syedbalkhi.com/" rel="friend" title="Syed Balkhi">Syed Balkhi</a>.
+This plugin is created by [Benjamin Rojas](https://benjaminrojas.net/ 'Benjamin Rojas') and [Syed Balkhi](https://syedbalkhi.com/ 'Syed Balkhi').
 
 ### Branding Guideline ###
 
@@ -226,6 +226,10 @@ AIOSEO&reg; is a registered trademark of Semper Plugins LLC. When writing about 
 
 
 == Changelog ==
+
+**New in Version 4.5.7.2**
+
+* Fixed: Adding a Focus Keyphrase in TruSEO sometimes fails when user is using a language that is not officially supported.
 
 **New in Version 4.5.7.1**
 
@@ -332,38 +336,11 @@ AIOSEO&reg; is a registered trademark of Semper Plugins LLC. When writing about 
 
 * Fixed: Plugin conflict with Jetpack.
 
-**New in Version 4.5.1**
-
-* Updated: Added support for the Performant Translations plugin.
-* Updated: Added support for schema validation for AIOSEO's schema supported blocks (FAQ block).
-* Updated: Added support for WooCommerce grouped products to Product schema.
-* Updated: Updated our icons for X (formely Twitter).
-* Updated: Removed support for Google Analytics V3 as it has been discontinued by Google.
-* Updated: We now hide the TruSEO score for static blog pages.
-* Updated: Added emoji picker to the 404 breadcrumb template.
-* Updated: Advanced 404 redirect can now use an external domain URL.
-* Fixed: Rare issue where site could use more memory due to circular cache reference.
-* Fixed: Conflict with Safe Redirect Manager.
-* Fixed: Conflict between AIOSEO and the Presto Player and Product Tabs Manager plugins by Sparks.
-* Fixed: Schema Generator custom schema and validator editors not rendered on smaller screens.
-* Fixed: Default date value for datepicker in Event schema graph settings.
-* Fixed: Default schema not added to new SeedProd landing pages.
-* Fixed: Post column makes the post title column too small on smaller screens.
-* Fixed: Spaces stripped when searching for a post in the source/target URL field in Redirects.
-* Fixed: Feature inside Feature Manager would sometimes appear as active even when it is disabled.
-* Fixed: Fixed a number of strings that weren't localized before.
-* Fixed: PHP 8.2 deprecation warnings in Setup Wizard when using WP 6.4+
-* Fixed: PHP error when fetching WooCommerce Product Categories through REST API when AIOSEO REST API addon is active.
-* Fixed: PHP notice when using a custom multi-type JSON schema graph.
-* Fixed: Console error in Link Assistant when attempting to add a link through an Outbound Internal Suggestion.
-* Fixed: Redirects table footer height.
-* Fixed: Redirect source and target url no longer strip empty spaces when searching for posts/pages.
-
-**See our <a href="https://aioseo.com/changelog/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" target="_blank">changelog on aioseo.com</a> for previous releases.**
+**See our [changelog on aioseo.com](https://aioseo.com/changelog/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin) for previous releases.**
 
 == Frequently Asked Questions ==
 
-Please visit our <a href="https://aioseo.com/docs/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin">complete AIOSEO documentation</a> before requesting support for SEO from the AIOSEO team.
+Please visit our [complete AIOSEO documentation](https://aioseo.com/docs/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin) before requesting support for SEO from the AIOSEO team.
 
 = Who should use AIOSEO? =
 
@@ -440,6 +417,6 @@ Additionally, AIOSEO can also provide you with data on the most frequently used 
 
 == Upgrade Notice ==
 
-= 4.5.7.1 =
+= 4.5.7.2 =
 
 This update adds major improvements and bug fixes.
