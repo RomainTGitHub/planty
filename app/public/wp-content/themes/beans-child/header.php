@@ -16,12 +16,16 @@
   <?php wp_body_open(); ?>
 
   <header class="header">
+
+
     <div class=logo>
       <a href="<?php echo home_url('/'); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
       </a>
       <p>energy drink</p>
     </div>
+
+    <!--
     <nav class="lien-header">
       <div class="bouton">
         <a class="bouton1" href="">Nous rencontrer</a>
@@ -29,4 +33,16 @@
       </div>
       <a class="bouton2" href="">Commander</a>
     </nav>
+
+-->
+    <div class="menunav">
+
+      <?php wp_nav_menu(array(
+
+        'menu' => 'Menunav',
+
+        'container' => 'nav'
+
+      )); ?>
+    </div>
   </header>
