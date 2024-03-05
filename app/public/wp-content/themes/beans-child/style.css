@@ -164,6 +164,22 @@ footer a:hover {
     text-decoration: none;
 }
 
+/*Contenu page*/
+
+.elementor-556 .elementor-element.elementor-element-e4cc533 .elementor-button {
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background: #E0B9B4;
+}
+
+.elementor-556:hover .elementor-element.elementor-element-e4cc533:hover .elementor-button:hover {
+    background: #C02E44;
+}
+
+/* Responsive */
+
 @media screen and (max-width: 870px) {
     .logo p {
         display: none;
