@@ -71,7 +71,7 @@ ul {
     gap: 60px;
 }
 
-.menu-item-567 a {
+.menu-item-566 a {
     color: #000;
     font-family: Syne;
     font-size: 16px;
@@ -80,7 +80,7 @@ ul {
     line-height: normal;
 }
 
-.menu-item-567 a:hover {
+.menu-item-566 a:hover {
     color: #000;
     font-family: Syne;
     font-size: 13px;
@@ -90,7 +90,7 @@ ul {
     text-decoration: none;
 }
 
-.menu-item-566 a {
+.menu-item-567 a {
     color: #FFF;
     text-align: center;
     font-family: Syne;
@@ -102,7 +102,7 @@ ul {
     padding: 30px 61px 31px 61px;
 }
 
-.menu-item-566 a:hover {
+.menu-item-567 a:hover {
     color: #FFF;
     background-color: #C02E44;
     text-decoration: none;
@@ -178,6 +178,31 @@ footer a:hover {
 
 .elementor-556:hover .elementor-element.elementor-element-e4cc533:hover .elementor-button:hover {
     background: #C02E44;
+}
+
+/* séparateur verticale (page commander)
+
+/* ---- VERTICAL Separator  / davidmazeau.com ---- */
+
+@color-hr: rgba(255, 0, 0, 1);
+
+
+@width-hr: 2px;
+
+
+@height-hr: 50px;
+
+
+@ep-hr: 2px;
+
+.separateur-vertical {
+    border: none !important;
+    border-left: @ep-hr solid @color-hr !important;
+    width: @ep-hr !important;
+}
+
+.separateur-vertical {
+    height: @height-hr * 2 !important;
 }
 
 /* Responsive */
