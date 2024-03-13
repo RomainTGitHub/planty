@@ -16,8 +16,6 @@
   <?php wp_body_open(); ?>
 
   <header class="header">
-
-
     <div class=logo>
       <a href="<?php echo home_url('/'); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
@@ -25,24 +23,30 @@
       <p>energy drink</p>
     </div>
 
-    <!--
-    <nav class="lien-header">
-      <div class="bouton">
-        <a class="bouton1" href="">Nous rencontrer</a>
-        <a class="boutonadmin">Admin</a>
-      </div>
-      <a class="bouton2" href="">Commander</a>
-    </nav>
+    <?php if (is_user_logged_in()) : ?>
+      <div class="user-logged">
 
--->
-    <div class="menunav">
+        <nav class="menunav">
 
-      <?php wp_nav_menu(array(
+          <?php wp_nav_menu(array(
 
-        'menu' => 'Menunav',
+            'menu' => 'Menunavadmin',
 
-        'container' => 'nav'
+            'container' => 'nav'
 
-      )); ?>
-    </div>
+          )); ?>
+        </nav>
+
+      <?php else : ?>
+        <nav class="menunav">
+
+          <?php wp_nav_menu(array(
+
+            'menu' => 'Menunav',
+
+            'container' => 'nav'
+
+          )); ?>
+        </nav>
+      <?php endif; ?>
   </header>
