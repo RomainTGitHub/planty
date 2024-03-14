@@ -34,7 +34,7 @@ function lien_admin($items, $args)
 		// Récupérer l'URL de l'interface d'administration
 		$admin_url = get_admin_url();
 		// Ajouter le lien vers la page d'administration dans le menu
-		$admin_link = '<li><a href="' . esc_url($admin_url) . '">Admin</a></li>';
+		$admin_link = '<li class="lienadmin"><a href="' . esc_url($admin_url) . '">Admin</a></li>';
 		$menu_items = explode('</li>', $items);
 		// Insérer le lien vers la page d'administration en deuxième position
 		array_splice($menu_items, 1, 0, $admin_link);
