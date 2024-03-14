@@ -26,3 +26,21 @@ function default_page_menu()
 {
 	wp_list_pages('title_li=');
 } ?>
+
+<?php
+function lien_admin($items, $args)
+{
+	if (is_user_logged_in()) {
+		// Récupérer l'URL de l'interface d'administration
+		$admin_url = get_admin_url();
+		// Ajouter le lien vers la page d'administration dans le menu
+		$admin_link = '<li><a href="' . esc_url($admin_url) . '">Admin</a></li>';
+		$menu_items = explode('</li>', $items);
+		// Insérer le lien vers la page d'administration en deuxième position
+		array_splice($menu_items, 1, 0, $admin_link);
+		// Convertir le tableau en chaîne de caractères
+		$items = implode('</li>', $menu_items) . '</li>';
+	}
+	return $items;
+}
+add_filter('wp_nav_menu_items', 'lien_admin', 10, 2); ?>

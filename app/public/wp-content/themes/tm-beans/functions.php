@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Beans Framework.
  * This core file should only be overwritten via your child theme.
@@ -18,4 +19,4 @@
  * @link   https://www.getbeans.io
  */
 
-require_once dirname( __FILE__ ) . '/lib/init.php';
+require_once dirname(__FILE__) . '/lib/init.php';

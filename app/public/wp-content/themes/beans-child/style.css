@@ -71,24 +71,6 @@ ul {
     gap: 60px;
 }
 
-.menu-item-785 a {
-    color: #000;
-    font-family: Syne;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.menu-item-785 a:hover {
-    color: #000;
-    font-family: Syne;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-}
 
 .menu-item-566 a {
     color: #000;
@@ -125,48 +107,6 @@ ul {
     color: #FFF;
     background-color: #C02E44;
     text-decoration: none;
-}
-
-.menu-item-786 a {
-    color: #FFF;
-    text-align: center;
-    font-family: Syne;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background-color: #DC9F96;
-    padding: 30px 61px 31px 61px;
-}
-
-.menu-item-786 a:hover {
-    color: #FFF;
-    background-color: #C02E44;
-    text-decoration: none;
-}
-
-.menu-item-787 a {
-    color: #000;
-    font-family: Syne;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    border: 1px solid #000;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.menu-item-787 a:hover {
-    color: #000;
-    font-family: Syne;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-    border: 1px solid #000;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -390,5 +330,48 @@ footer a:hover {
     .logo img {
         width: auto;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .formulairecommander {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .formulairecommander1 {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .formulairecommander2 {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .formulairecommander1 input {
+        width: 300px;
+        height: 100%;
+        padding: 9px 57px 9px 56px;
+    }
+
+    .formulairecommander2 input {
+        width: 300px;
+        height: 100%;
+        padding: 9px 57px 9px 56px;
+    }
+
+    .lien-header {
+        gap: 10px;
+    }
+
+    .header ul {
+        gap: 10px;
     }
 }

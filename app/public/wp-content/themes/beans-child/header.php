@@ -23,30 +23,16 @@
       <p>energy drink</p>
     </div>
 
-    <?php if (is_user_logged_in()) : ?>
-      <div class="user-logged">
+    <nav class="menunav">
 
-        <nav class="menunav">
+      <?php wp_nav_menu(array(
 
-          <?php wp_nav_menu(array(
+        'menu' => 'Menunav',
 
-            'menu' => 'Menunavadmin',
+        'container' => 'nav'
 
-            'container' => 'nav'
+      )); ?>
 
-          )); ?>
-        </nav>
+    </nav>
 
-      <?php else : ?>
-        <nav class="menunav">
-
-          <?php wp_nav_menu(array(
-
-            'menu' => 'Menunav',
-
-            'container' => 'nav'
-
-          )); ?>
-        </nav>
-      <?php endif; ?>
   </header>
