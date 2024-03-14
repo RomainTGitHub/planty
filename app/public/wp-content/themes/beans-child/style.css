@@ -71,6 +71,7 @@ ul {
     gap: 60px;
 }
 
+/* lien Nous rencontrer*/
 
 .menu-item-566 a {
     color: #000;
@@ -91,6 +92,7 @@ ul {
     text-decoration: none;
 }
 
+/* lien admin */
 .lienadmin a {
     color: #000;
     font-family: Syne;
@@ -112,6 +114,7 @@ ul {
     text-decoration: none;
 }
 
+/* bouton commander */
 .menu-item-567 a {
     color: #FFF;
     text-align: center;
@@ -394,5 +397,31 @@ footer a:hover {
 
     .header ul {
         gap: 10px;
+    }
+
+    .menu-item-567 a {
+        color: #FFF;
+        text-align: center;
+        font-family: Syne;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background-color: #DC9F96;
+        padding: 30px 10px 31px 10px;
+    }
+
+    .menu-item-566 a {
+        color: #000;
+        font-family: Syne;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    nav {
+        margin-left: -20px;
     }
 }
