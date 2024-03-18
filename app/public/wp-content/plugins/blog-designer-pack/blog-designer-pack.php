@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Blog Designer Pack
  * Plugin URI: https://premium.infornweb.com/news-blog-designer-pack-pro/
- * Version: 3.4.3
+ * Version: 3.4.4
  * Description: Display blog posts on your website with 6 blog layouts (2 designs for each blog layout) plus 1 Ticker and 2 Widgets
  * Text Domain: blog-designer-pack
  * Domain Path: /languages/
@@ -25,7 +25,7 @@ if ( function_exists( 'bdp_fs' ) ) {
  * @since 1.0.0
  */
 if( ! defined( 'BDP_VERSION' ) ) {
-	define( 'BDP_VERSION', '3.4.3' ); // Version of plugin
+	define( 'BDP_VERSION', '3.4.4' ); // Version of plugin
 }
 if( ! defined( 'BDP_DIR' ) ) {
 	define( 'BDP_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -64,7 +64,7 @@ register_activation_hook( __FILE__, 'bdp_install' );
  */
 function bdp_install() {
 
-	// Deactivate free version
+	// Deactivate Pro Plugin
 	if( is_plugin_active('blog-designer-pack-pro/blog-designer-pack-pro.php') ) {
 		add_action( 'update_option_active_plugins', 'bdp_deactivate_pro_version' );
 	}
@@ -77,7 +77,7 @@ function bdp_install() {
 }
 
 /**
- * Deactivate free plugin
+ * Deactivate Pro Plugin
  * 
  * @package Blog Designer Pack
  * @since 1.0.6
@@ -109,11 +109,10 @@ function bdp_load_textdomain() {
 	}
 
 	// Traditional WordPress plugin locale filter.
-	$locale	= apply_filters( 'plugin_locale',  get_locale(), 'blog-designer-pack' );
+	$locale	= apply_filters( 'plugin_locale',  $get_locale, 'blog-designer-pack' );
 	$mofile	= sprintf( '%1$s-%2$s.mo', 'blog-designer-pack', $locale );
 	
 	// Setup paths to current locale file
-	$mofile_local	= $bdp_lang_dir . $mofile;
 	$mofile_global	= WP_LANG_DIR . '/plugins/' . BDP_PLUGIN_BASENAME . '/' . $mofile;
 	
 	if ( file_exists( $mofile_global ) ) { // Look in global /wp-content/languages/blog-designer-pack folder

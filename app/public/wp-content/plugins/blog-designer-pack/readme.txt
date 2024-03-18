@@ -2,9 +2,9 @@
 Contributors: infornweb, pluginandplay 
 Tags: blog, news, blog design, blog layout, blog grid, blog list, blog slider, blog page builder, post ticker, news, news page, blog template, modify blog design, post slider, post carousel, custom blog template, blog layout design, custom blog layout, modify blog design, blog,  posts in page, blog in page, grid blog template, list blog template, masonry blog template, slider blog template, carousel blog template, blog widgets, post filter
 Requires at least: 4.0
-Tested up to: 6.4.1
+Tested up to: 6.5
 Requires PHP: 5.4
-Stable tag: 3.4.3
+Stable tag: 3.4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -346,6 +346,10 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 3.4.4 (17 March, 2024) =
+* [*] Check compatibility with WordPress 6.5
+* [*] Update Freemius SDK to latest version 2.6.2
 
 = 3.4.3 (15 Nov, 2023) =
 * [*] Check compatibility with WordPress 6.4.1
