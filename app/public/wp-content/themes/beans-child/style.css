@@ -354,6 +354,10 @@ footer a:hover {
     flex-shrink: 0;
 }
 
+.e-con-inner {
+    gap: 30px !important;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 870px) {
