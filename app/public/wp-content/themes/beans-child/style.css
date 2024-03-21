@@ -348,6 +348,12 @@ footer a:hover {
     background: #C02E44;
 }
 
+.elementor-element.elementor-element-1826da0.e-con-full.e-flex.e-con.e-parent input {
+    width: 39px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 870px) {
@@ -434,4 +440,5 @@ footer a:hover {
     nav {
         margin-left: -20px;
     }
+
 }
