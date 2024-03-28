@@ -372,6 +372,11 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+    .logo img {
+        display: none;
+    }
+
     .formulairecommander {
         display: flex;
         justify-content: space-evenly;
@@ -442,7 +447,7 @@ footer a:hover {
     }
 
     nav {
-        margin-left: -20px;
+        margin-left: -60px;
     }
 
 }

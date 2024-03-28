@@ -1,10 +1,10 @@
 === All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings & Increase Traffic ===
 Contributors: aioseo, smub, benjaminprojas
 Tags: SEO, Google Search Console, XML Sitemap, meta description, schema, meta title, rich snippets, woocommerce seo, local seo, open graph, google news sitemap, video sitemap, robots.txt, seo audit, content analysis, seo plugin, redirection
-Tested up to: 6.4.3
+Tested up to: 6.5
 Requires at least: 5.3
 Requires PHP: 7.0
-Stable tag: 4.5.8
+Stable tag: 4.5.9.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -163,7 +163,7 @@ See additional SEO keywords with Semrush SEO integration.
 Use ChatGPT to write SEO titles and meta descriptions to improve SEO rankings.
 
 * **Microsoft Clarity Integration** 
-See visotor interactions with heatmaps and session recordings.
+See visitor interactions with heatmaps and session recordings.
 
 * **IndexNow Integration** 
 Instantly notify Bing and Yandex for faster SEO indexing.
@@ -194,7 +194,7 @@ We also support importing SEO redirects from the following plugins:
 
 * Redirection Plugin
 * Simple 301 Redirects Importer
-* Safe Redirection Manager
+* Safe Redirect Manager
 * 301 Redirects Importer
 
 Aside from that, our SEO migration tool also helps you with:
@@ -226,6 +226,33 @@ AIOSEO&reg; is a registered trademark of Semper Plugins LLC. When writing about 
 
 
 == Changelog ==
+
+**New in Version 4.5.9.2**
+
+* Updated: Compatibility fixes for WordPress 6.5.
+
+**New in Version 4.5.9.1**
+
+* Fixed: PHP error sometimes thrown on multisites because SECURE_AUTH_COOKIE constant not set due to loading WordPress pluggables too soon.
+* Fixed: PHP error sometimes thrown in update migration due to invalid old options data.
+
+**New in Version 4.5.9**
+
+* Updated: Various improvements and behind-the-scenes bug fixes for the SEO Analyzer to increase result accuracy.
+* Updated: Added a filter to skip logging for redirects and 404 URLs.
+* Updated: Deprecated the No Pagination for Canonical URLs setting for new users.
+* Fixed: Product schema is now correctly output again for virtual, downloadable and free WooCommerce products.
+* Fixed: Unspecified type for organization image causing an error in schema validation tools.
+* Fixed: `max-video-preview` robots meta value not output when set to 0.
+* Fixed: Search Statistics is now able to find the correct matching post when permalink has no trailing slash.
+* Fixed: Avada builder styles no longer leak into Author SEO (E-E-A-T) blocks.
+* Fixed: SeedProd builder styles no longer leak into AIOSEO Metabox.
+* Fixed: Canonical URL no longer strip the "/amp" slug when the page is not a valid AMP page.
+* Fixed: PHP error when WPBakery plugin is not activated.
+* Fixed: PHP error when the `wp_get_current_user` function is not declared yet in rare cases.
+* Fixed: PHP error caused by the capability variable being an array instead of a string in rare cases.
+* Fixed: PHP warnings for object properties in Image SEO addon.
+* Fixed: Redirects CSV Import was not showing some URLs that failed to import.
 
 **New in Version 4.5.8**
 
@@ -331,21 +358,6 @@ AIOSEO&reg; is a registered trademark of Semper Plugins LLC. When writing about 
 * Fixed: Plugin conflict with the Autoptimization plugin where the frontend of the site shows a whitescreen when logged-in users are using Russian as their locale.
 * Fixed: Conflict with block-based themes in WP 6.0+.
 
-**New in Version 4.5.2.1**
-
-* Fixed: Conflict with Avada where some Avada elements cause the post editor to load the wrong data.
-
-**New in Version 4.5.2**
-
-* New: Integrations with Avada & WPBakery - Control your SEO and optimize your content directly from the Avada and WPBakery visual page builders.
-* New: Added support for the Limit Modified Date setting to Elementor, Divi and SeedProd.
-* Updated: Improved shipping details schema logic for WooCommerce to better prevent plugin/theme conflicts.
-* Fixed: PHP error in Tools menu when using WP 5.4 or lower.
-
-**New in Version 4.5.1.1**
-
-* Fixed: Plugin conflict with Jetpack.
-
 **See our [changelog on aioseo.com](https://aioseo.com/changelog/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin) for previous releases.**
 
 == Frequently Asked Questions ==
@@ -427,6 +439,6 @@ Additionally, AIOSEO can also provide you with data on the most frequently used 
 
 == Upgrade Notice ==
 
-= 4.5.8 =
+= 4.5.9.2 =
 
 This update adds major improvements and bug fixes.
